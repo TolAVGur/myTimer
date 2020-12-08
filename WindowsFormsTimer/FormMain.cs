@@ -12,6 +12,7 @@ namespace WindowsFormsTimer
 {
     public partial class FormMain : Form
     {
+        private string alarmTime;
         public FormMain()
         {
             InitializeComponent();
@@ -25,6 +26,26 @@ namespace WindowsFormsTimer
         private void timer1_Tick(object sender, EventArgs e)
         {
             DisplayCarrentTime();
+            if (label1.Text==alarmTime)
+            {
+                MessageBox.Show($"Time is up!", "Information",
+               MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            alarmTime = textBox.Text;
+            MessageBox.Show($"Stert alarm - {alarmTime}", "Warning", 
+                MessageBoxButtons.OK, MessageBoxIcon.Warning);
+        }
+
+        private void btnStop_Click(object sender, EventArgs e)
+        {
+            alarmTime = "";
+            textBox.Clear();
+            MessageBox.Show($"Stop alarm!", "Information",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
