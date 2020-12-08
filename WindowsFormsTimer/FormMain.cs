@@ -15,6 +15,16 @@ namespace WindowsFormsTimer
         public FormMain()
         {
             InitializeComponent();
+            DisplayCarrentTime();
+        }
+
+        private void DisplayCarrentTime()
+        {
+            label1.Text = DateTime.Now.ToLongTimeString();
+        }
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            DisplayCarrentTime();
         }
     }
 }

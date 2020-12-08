@@ -1,0 +1,10 @@
+D:\Step\УправлПрогрПроектами\Computer2\myTimer\WindowsFormsTimer\bin\Debug\WindowsFormsTimer.exe.config
+D:\Step\УправлПрогрПроектами\Computer2\myTimer\WindowsFormsTimer\bin\Debug\WindowsFormsTimer.exe
+D:\Step\УправлПрогрПроектами\Computer2\myTimer\WindowsFormsTimer\bin\Debug\WindowsFormsTimer.pdb
+D:\Step\УправлПрогрПроектами\Computer2\myTimer\WindowsFormsTimer\obj\Debug\WindowsFormsTimer.csprojAssemblyReference.cache
+D:\Step\УправлПрогрПроектами\Computer2\myTimer\WindowsFormsTimer\obj\Debug\WindowsFormsTimer.FormMain.resources
+D:\Step\УправлПрогрПроектами\Computer2\myTimer\WindowsFormsTimer\obj\Debug\WindowsFormsTimer.Properties.Resources.resources
+D:\Step\УправлПрогрПроектами\Computer2\myTimer\WindowsFormsTimer\obj\Debug\WindowsFormsTimer.csproj.GenerateResource.cache
+D:\Step\УправлПрогрПроектами\Computer2\myTimer\WindowsFormsTimer\obj\Debug\WindowsFormsTimer.csproj.CoreCompileInputs.cache
+D:\Step\УправлПрогрПроектами\Computer2\myTimer\WindowsFormsTimer\obj\Debug\WindowsFormsTimer.exe
+D:\Step\УправлПрогрПроектами\Computer2\myTimer\WindowsFormsTimer\obj\Debug\WindowsFormsTimer.pdb
