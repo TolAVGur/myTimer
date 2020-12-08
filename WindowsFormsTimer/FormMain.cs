@@ -13,6 +13,8 @@ namespace WindowsFormsTimer
     public partial class FormMain : Form
     {
         private string alarmTime;
+        private double param1;
+        // Здесь чтото новое, для теста pull
         public FormMain()
         {
             InitializeComponent();
