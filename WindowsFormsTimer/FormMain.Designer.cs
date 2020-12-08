@@ -30,29 +30,29 @@ namespace WindowsFormsTimer
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.label1 = new System.Windows.Forms.Label();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.label = new System.Windows.Forms.Label();
+            this.timer = new System.Windows.Forms.Timer(this.components);
             this.textBox = new System.Windows.Forms.TextBox();
             this.btnStart = new System.Windows.Forms.Button();
             this.btnStop = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // label
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 42F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.ForeColor = System.Drawing.Color.MediumBlue;
-            this.label1.Location = new System.Drawing.Point(48, 32);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(306, 79);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "00:00:00";
+            this.label.AutoSize = true;
+            this.label.Font = new System.Drawing.Font("Microsoft Sans Serif", 42F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label.ForeColor = System.Drawing.Color.MediumBlue;
+            this.label.Location = new System.Drawing.Point(48, 32);
+            this.label.Name = "label";
+            this.label.Size = new System.Drawing.Size(306, 79);
+            this.label.TabIndex = 0;
+            this.label.Text = "00:00:00";
             // 
-            // timer1
+            // timer
             // 
-            this.timer1.Enabled = true;
-            this.timer1.Interval = 1000;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.timer.Enabled = true;
+            this.timer.Interval = 1000;
+            this.timer.Tick += new System.EventHandler(this.timer_Tick);
             // 
             // textBox
             // 
@@ -93,7 +93,7 @@ namespace WindowsFormsTimer
             this.Controls.Add(this.btnStop);
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.textBox);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.label);
             this.Name = "FormMain";
             this.Text = "Простейший таймер";
             this.ResumeLayout(false);
@@ -103,8 +103,8 @@ namespace WindowsFormsTimer
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label label;
+        private System.Windows.Forms.Timer timer;
         private System.Windows.Forms.TextBox textBox;
         private System.Windows.Forms.Button btnStart;
         private System.Windows.Forms.Button btnStop;

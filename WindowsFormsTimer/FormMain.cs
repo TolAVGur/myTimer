@@ -21,16 +21,7 @@ namespace WindowsFormsTimer
 
         private void DisplayCarrentTime()
         {
-            label1.Text = DateTime.Now.ToLongTimeString();
-        }
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            DisplayCarrentTime();
-            if (label1.Text==alarmTime)
-            {
-                MessageBox.Show($"Time is up!", "Information",
-               MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            label.Text = DateTime.Now.ToLongTimeString();
         }
 
         private void btnStart_Click(object sender, EventArgs e)
@@ -46,6 +37,16 @@ namespace WindowsFormsTimer
             textBox.Clear();
             MessageBox.Show($"Stop alarm!", "Information",
                 MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void timer_Tick(object sender, EventArgs e)
+        {
+            DisplayCarrentTime();
+            if (label.Text == alarmTime)
+            {
+                MessageBox.Show($"Time is up!", "Information",
+               MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }
